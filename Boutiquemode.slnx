@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="Boutiquemoda.DataAccess/Boutiquemoda.DataAccess.csproj" />
+  <Project Path="BoutiqueModa.Entities/BoutiqueModa.Entities.csproj" Id="de9fc7fc-f4e3-45a9-94a5-342e1b7208ad" />
   <Project Path="Boutiquemode.BusinessLogic/Boutiquemode.BusinessLogic.csproj" />
 </Solution>
