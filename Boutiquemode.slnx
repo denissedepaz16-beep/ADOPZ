@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Boutiquemoda.DataAccess/Boutiquemoda.DataAccess.csproj" />
+  <Project Path="Boutiquemode.BusinessLogic/Boutiquemode.BusinessLogic.csproj" />
+</Solution>
