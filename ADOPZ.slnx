@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Boutiquemoda.DataAccess/ADOPZ.DataAccess.csproj" />
+  <Project Path="BoutiqueModa.Entities/ADOPZ.Entities.csproj" Id="de9fc7fc-f4e3-45a9-94a5-342e1b7208ad" />
+  <Project Path="BoutiqueModa.WebApplication/ADOPZ.WebApplication.csproj" Id="76e92407-082b-448e-b12b-00fe6579f475" />
+  <Project Path="Boutiquemode.BusinessLogic/ADOPZ.BusinessLogic.csproj" />
+</Solution>
