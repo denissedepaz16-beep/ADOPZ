@@ -1,7 +1,6 @@
-﻿namespace Boutiquemoda.DataAccess
-{
-    public class Class1
-    {
+﻿namespace ADOPZ.DataAccess;
 
-    }
+public class Class1
+{
+
 }

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ADOPZ.DataAccess.Repositorys
+namespace ADOPZ.Entities
 {
-    internal class EfRepository
+    internal class Quotationcs
     {
     }
 }
