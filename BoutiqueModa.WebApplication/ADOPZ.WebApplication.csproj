@@ -1,0 +1,64 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="View\Brand\Create.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="bin\Debug\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs" />
+    <Compile Include="bin\Debug\net10.0\ADOPZ.WebApplication.AssemblyInfo.cs" />
+    <Compile Include="bin\Debug\net10.0\ADOPZ.WebApplication.GlobalUsings.g.cs" />
+    <Compile Include="bin\Debug\net10.0\ADOPZ.WebApplication.RazorAssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net10.0\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net10.0\ADOPZ.WebApplication.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net10.0\ADOPZ.WebApplication.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net10.0\ADOPZ.WebApplication.RazorAssemblyInfo.cs" />
+    <Compile Include="obj\Release\net10.0\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Release\net10.0\ADOPZ.WebApplication.AssemblyInfo.cs" />
+    <Compile Include="obj\Release\net10.0\ADOPZ.WebApplication.GlobalUsings.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\Debug\net10.0\ADOPZ.WebApplication.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net10.0\ADOPZ.WebApplication.sourcelink.json" />
+    <Content Include="obj\Debug\net10.0\rpswa.dswa.cache.json" />
+    <Content Include="obj\Debug\net10.0\staticwebassets.removed.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ADOPZ.BusinessLogic\ADOPZ.BusinessLogic.csproj" />
+    <ProjectReference Include="..\Boutiquemode.BusinessLogic\ADOPZ.BusinessLogic.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="obj\Debug\net10.0\refint\" />
+    <Folder Include="obj\Debug\net10.0\ref\" />
+    <Folder Include="obj\Debug\net10.0\staticwebassets\" />
+    <Folder Include="obj\Release\net10.0\refint\" />
+    <Folder Include="obj\Release\net10.0\ref\" />
+    <Folder Include="wwwroot\js\" />
+    <Folder Include="wwwroot\lib\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="obj\Debug\net10.0\ADOPZ.WebApplication.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net10.0\ADOPZ.WebApplication.assets.cache" />
+    <None Include="obj\Debug\net10.0\ADOPZ.WebApplication.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net10.0\ADOPZ.WebApplication.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net10.0\ADOPZ.WebApplication.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net10.0\ADOPZ.WebApplication.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="obj\Debug\net10.0\ADOPZ.WebApplication.RazorAssemblyInfo.cache" />
+    <None Include="obj\Release\net10.0\ADOPZ.WebApplication.AssemblyInfoInputs.cache" />
+    <None Include="obj\Release\net10.0\ADOPZ.WebApplication.assets.cache" />
+    <None Include="obj\Release\net10.0\ADOPZ.WebApplication.csproj.AssemblyReference.cache" />
+    <None Include="obj\Release\net10.0\ADOPZ.WebApplication.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="View\Brand\Create.cshtml" />
+  </ItemGroup>
+
+</Project>

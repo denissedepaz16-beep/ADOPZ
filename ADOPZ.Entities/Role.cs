@@ -11,5 +11,10 @@ public partial class Role
 
     public bool? IsActive { get; set; }
 
-    public virtual ICollection<User> Users { get; set; } = new List<User>();
+    public virtual ICollection<User> Users { get; set; } = [];
+
+    public Role(ICollection<User> users)
+    {
+        this.Users = users;
+    }
 }

@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace ADOPZ.DataAccess;
 
@@ -8,11 +6,11 @@ public partial class BoutiqueModaContext : DbContext
 {
     private DbSet<User> users;
 
-    public BoutiqueModaContext()
+    public ADOPZModaContexto()
     {
     }
 
-    public BoutiqueModaContext(DbContextOptions<BoutiqueModaContext> options)
+    public ADOPZModaContext(DbContextOptions<BoutiqueModaContext> options)
         : base(options)
     {
     }

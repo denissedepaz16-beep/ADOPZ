@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace ESFE.Entities;
+namespace ADOPZ.Entities;
 
 public partial class Role
 {

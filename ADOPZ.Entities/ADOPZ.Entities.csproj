@@ -6,4 +6,69 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Include="obj\Debug\net10.0\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net10.0\ADOP.Entities.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net10.0\ADOP.Entities.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net10.0\ADOPZ.Entities.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net10.0\ADOPZ.Entities.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net10.0\BoutiqueModa.Entities.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net10.0\BoutiqueModa.Entities.GlobalUsings.g.cs" />
+    <Compile Include="obj\Release\net10.0\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Release\net10.0\ADOPZ.Entities.AssemblyInfo.cs" />
+    <Compile Include="obj\Release\net10.0\ADOPZ.Entities.GlobalUsings.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net10.0\ADOP.Entities.deps.json" />
+    <Content Include="bin\Debug\net10.0\ADOPZ.Entities.deps.json" />
+    <Content Include="bin\Debug\net10.0\BoutiqueModa.Entities.deps.json" />
+    <Content Include="obj\Debug\net10.0\ADOP.Entities.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net10.0\ADOPZ.Entities.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net10.0\BoutiqueModa.Entities.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net10.0\BoutiqueModa.Entities.sourcelink.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ADOPZ.BusinessLogic\obj\Release\net10.0\refint\" />
+    <Folder Include="ADOPZ.BusinessLogic\obj\Release\net10.0\ref\" />
+    <Folder Include="bin\Release\net10.0\" />
+    <Folder Include="obj\Release\net10.0\refint\" />
+    <Folder Include="obj\Release\net10.0\ref\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net10.0\ADOP.Entities.dll" />
+    <None Include="bin\Debug\net10.0\ADOP.Entities.pdb" />
+    <None Include="bin\Debug\net10.0\ADOPZ.Entities.dll" />
+    <None Include="bin\Debug\net10.0\ADOPZ.Entities.pdb" />
+    <None Include="bin\Debug\net10.0\BoutiqueModa.Entities.dll" />
+    <None Include="bin\Debug\net10.0\BoutiqueModa.Entities.pdb" />
+    <None Include="obj\ADOP.Entities.csproj.nuget.g.props" />
+    <None Include="obj\Debug\net10.0\ADOP.Entities.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net10.0\ADOP.Entities.assets.cache" />
+    <None Include="obj\Debug\net10.0\ADOP.Entities.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net10.0\ADOP.Entities.dll" />
+    <None Include="obj\Debug\net10.0\ADOP.Entities.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net10.0\ADOP.Entities.pdb" />
+    <None Include="obj\Debug\net10.0\ADOPZ.Entities.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net10.0\ADOPZ.Entities.assets.cache" />
+    <None Include="obj\Debug\net10.0\ADOPZ.Entities.csproj.BuildWithSkipAnalyzers" />
+    <None Include="obj\Debug\net10.0\ADOPZ.Entities.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net10.0\BoutiqueModa.Entities.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net10.0\BoutiqueModa.Entities.assets.cache" />
+    <None Include="obj\Debug\net10.0\BoutiqueModa.Entities.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net10.0\BoutiqueModa.Entities.dll" />
+    <None Include="obj\Debug\net10.0\BoutiqueModa.Entities.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net10.0\BoutiqueModa.Entities.pdb" />
+    <None Include="obj\Debug\net10.0\refint\ADOP.Entities.dll" />
+    <None Include="obj\Debug\net10.0\refint\BoutiqueModa.Entities.dll" />
+    <None Include="obj\Debug\net10.0\ref\ADOP.Entities.dll" />
+    <None Include="obj\Debug\net10.0\ref\ADOPZ.Entities.dll" />
+    <None Include="obj\Debug\net10.0\ref\BoutiqueModa.Entities.dll" />
+    <None Include="obj\Release\net10.0\ADOPZ.Entities.AssemblyInfoInputs.cache" />
+    <None Include="obj\Release\net10.0\ADOPZ.Entities.assets.cache" />
+    <None Include="obj\Release\net10.0\ADOPZ.Entities.GeneratedMSBuildEditorConfig.editorconfig" />
+  </ItemGroup>
+
 </Project>
